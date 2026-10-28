@@ -1,0 +1,23 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 权重与检查点
+*.pth
+*.pt
+*.ckpt
+snapshots_light/
+snapshots_denoise/
+
+# 数据集、训练和测试输出
+dataset/
+data/
+*.log
+
+# 论文与本地配置
+*.pdf
+.env
+.env.*
+.vscode/
+.idea/
